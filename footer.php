@@ -8,6 +8,9 @@
 			</nav>
 
 			<p>Rest © 2015. Alguns direitos reservados.</p>
+
+			<p><?php the_field('endereco_header', $contato) ?></p>
+			<p class="telefone"><?php the_field('telefone_header', $contato) ?></p>
 		</footer>
 
 		<!-- Footer WordPress -->
